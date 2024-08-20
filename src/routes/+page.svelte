@@ -1,21 +1,9 @@
 <script lang="ts">
     import {onMount} from "svelte";
     import {leaderboardData, songs} from "$lib/store.ts";
+    import Scores from "$lib/components/Scores.svelte";
 
-    const getSong = (hash: String) => {
-        if ($songs === null) {
-            return null
-        }
-
-        const song = $songs.songs.find(it => it.hash === hash)
-
-        if (song === undefined)
-            return null
-
-        return song
-    }
-
-    onMount(async () => {
+    const fetchSongs = () => {
         fetch("/api/songs")
             .then(response => response.json())
             .then(data => {
@@ -24,6 +12,9 @@
             console.log(error);
             return [];
         });
+    }
+
+    const fetchLeaderboard = () => {
         fetch("/api/leaderboard")
             .then(response => response.json())
             .then(data => {
@@ -32,58 +23,70 @@
             console.log(error);
             return [];
         });
+    }
+
+
+    onMount(async () => {
+        fetchSongs()
+        fetchLeaderboard()
     });
 
 </script>
-<div style="display:flex; gap: 5rem; margin-inline: auto; justify-content: center; padding: 3rem">
+
+
+<div class="container-lite">
+        {#each Object.entries($leaderboardData) as [name]}
+            <a style="margin: 0.25rem" href={"#" + name}>#{name}</a>
+        {/each}
+</div>
+
+<div class="container">
+
     {#if $leaderboardData != null}
-            {#each Object.entries($leaderboardData) as [name, leaderboard]}
-                <div style="display: inline-block; max-width: 30rem">
 
-                <h2>{name}</h2>
-
-                {#each leaderboard as scoredata}
-                    <div style="display: flex; flex-direction: column">
-                        {#if $songs != null}
-                            <p style="display: inline-block" class="song-name">{getSong(scoredata.hash)?.songName} [{getSong(scoredata.hash)?.diff}] {scoredata.type}</p>
-                        {:else}
-                            <p style="display: inline-block" class="song-name">{scoredata.hash} - {scoredata.type}</p>
-                        {/if}
-                        <ul>
-                            {#each scoredata.scores as score}
-                                <li class="score-item">{score.username} - {score.score} [{score.scorePr}] - {score.WP} WP</li>
-                            {/each}
-                        </ul>
-                    </div>
-                {/each}
-                </div>
-            {/each}
+        {#each Object.entries($leaderboardData) as [name, leaderboard]}
+            <div class="leaderboard">
+                <h2 id={name} class="leaderboard-name">{name}</h2>
+                <Scores scores={leaderboard}/>
+            </div>
+        {/each}
     {/if}
 </div>
 
 <style>
 
-    .song-name {
-        font-weight: 600;
+
+    .container-lite {
+        display: none;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-inline: auto;
+        justify-content: center;
+        padding: 1rem
+    }
+
+    @media (max-width: 1080px) {
+        .container-lite {
+            display: flex;
+        }
+    }
+
+    .leaderboard-name {
+        padding: 0.5rem 1rem;
     }
 
 
-
-    ul {
+    .container {
         display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-        list-style: none;
-        padding: 0;
+        flex-wrap: wrap;
+        gap: 3rem;
+        margin-inline: auto;
+        justify-content: center;
+        padding: 3rem
     }
 
-    .score-item {
-        padding: 1.5rem 1rem;
-        border-radius: 0.25rem;
-        background-color: #812350;
-        color: #f1eaff;
+    .leaderboard {
+        display: inline-block;
+        max-width: 20rem
     }
-
-
-
 </style>
