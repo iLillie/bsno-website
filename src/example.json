@@ -1,0 +1,452 @@
+{
+  "top10": [
+    {
+      "hash": "9A1C719FC75F2B96902CA5FDC8CF3021B16229DD",
+      "type": "acc",
+      "scores": [
+        {
+          "username": "Cirzzo",
+          "userId": "76561198445060816",
+          "score": 870983,
+          "scorePr": "98.81",
+          "WP": 10
+        },
+        {
+          "username": "Lubb",
+          "userId": "76561198381538767",
+          "score": 867365,
+          "scorePr": "98.40",
+          "WP": 9
+        }
+      ]
+    },
+    {
+      "hash": "AFFADCC1A0A53DD5CD17650E3F83DA015CB602BB",
+      "type": "midspeed",
+      "scores": [
+        {
+          "username": "flor",
+          "userId": "76561198072602937",
+          "score": 882479,
+          "scorePr": "98.07",
+          "WP": 10
+        },
+        {
+          "username": "Lubb",
+          "userId": "76561198381538767",
+          "score": 876524,
+          "scorePr": "97.41",
+          "WP": 9
+        }
+      ]
+    },
+    {
+      "hash": "BDE26148ADB72E2FC4631A8D217B8AA1F9623AE1",
+      "type": "tech",
+      "scores": [
+        {
+          "username": "Cirzzo",
+          "userId": "76561198445060816",
+          "score": 702798,
+          "scorePr": "95.35",
+          "WP": 10
+        },
+        {
+          "username": "Lubb",
+          "userId": "76561198381538767",
+          "score": 678421,
+          "scorePr": "92.05",
+          "WP": 9
+        }
+      ]
+    },
+    {
+      "hash": "D6A162428900D98BC19634E214F7EB90619434B7",
+      "type": "speed",
+      "scores": [
+        {
+          "username": "Lubb",
+          "userId": "76561198381538767",
+          "score": 1349788,
+          "scorePr": "97.41",
+          "WP": 10
+        },
+        {
+          "username": "BungiCraft",
+          "userId": "76561198127781196",
+          "score": 1346490,
+          "scorePr": "97.17",
+          "WP": 9
+        }
+      ]
+    },
+    {
+      "hash": "54618379F3FDDCF5A8DF2D5FC35581D07466D465",
+      "type": "poodle",
+      "scores": [
+        {
+          "username": "Cirzzo",
+          "userId": "76561198445060816",
+          "score": 1410993,
+          "scorePr": "98.12",
+          "WP": 10
+        },
+        {
+          "username": "Lubb",
+          "userId": "76561198381538767",
+          "score": 1323064,
+          "scorePr": "92.00",
+          "WP": 9
+        }
+      ]
+    },
+    {
+      "hash": "6FDA3D6412661EC223AD07F66E38FCBE10B812DE",
+      "type": "funny",
+      "scores": [
+        {
+          "username": "Cirzzo",
+          "userId": "76561198445060816",
+          "score": 1955435,
+          "scorePr": "78.83",
+          "WP": 10
+        },
+        {
+          "username": "BungiCraft",
+          "userId": "76561198127781196",
+          "score": 1255234,
+          "scorePr": "50.61",
+          "WP": 9
+        }
+      ]
+    },
+    {
+      "hash": "B63BA22663263E54EF5F15953355515788DF7645",
+      "type": "bonus",
+      "scores": [
+        {
+          "username": "Cirzzo",
+          "userId": "76561198445060816",
+          "score": 725884,
+          "scorePr": "98.12",
+          "WP": 10
+        },
+        {
+          "username": "Lubb",
+          "userId": "76561198381538767",
+          "score": 707372,
+          "scorePr": "95.62",
+          "WP": 9
+        }
+      ]
+    },
+    {
+      "hash": "873503A729DB6DD370BC3E20A384AC00C4047999",
+      "type": "challenge",
+      "scores": [
+        {
+          "username": "Lubb",
+          "userId": "76561198381538767",
+          "score": 761601,
+          "scorePr": "82.77",
+          "WP": 10
+        }
+      ]
+    }
+  ],
+  "top25": [
+    {
+      "hash": "9A1C719FC75F2B96902CA5FDC8CF3021B16229DD",
+      "type": "acc",
+      "scores": [
+        {
+          "username": "ACC | Wookie",
+          "userId": "76561198103016268",
+          "score": 864209,
+          "scorePr": "98.04",
+          "WP": 10
+        },
+        {
+          "username": "slamsyk",
+          "userId": "76561198114515066",
+          "score": 859664,
+          "scorePr": "97.53",
+          "WP": 9
+        }
+      ]
+    },
+    {
+      "hash": "AFFADCC1A0A53DD5CD17650E3F83DA015CB602BB",
+      "type": "midspeed",
+      "scores": [
+        {
+          "username": "ACC | Wookie",
+          "userId": "76561198103016268",
+          "score": 873324,
+          "scorePr": "97.05",
+          "WP": 10
+        },
+        {
+          "username": "bluppen",
+          "userId": "76561198430231655",
+          "score": 871379,
+          "scorePr": "96.83",
+          "WP": 9
+        },
+        {
+          "username": "slamsyk",
+          "userId": "76561198114515066",
+          "score": 853231,
+          "scorePr": "94.82",
+          "WP": 8
+        }
+      ]
+    },
+    {
+      "hash": "BDE26148ADB72E2FC4631A8D217B8AA1F9623AE1",
+      "type": "tech",
+      "scores": [
+        {
+          "username": "slamsyk",
+          "userId": "76561198114515066",
+          "score": 647044,
+          "scorePr": "87.79",
+          "WP": 10
+        }
+      ]
+    },
+    {
+      "hash": "D6A162428900D98BC19634E214F7EB90619434B7",
+      "type": "speed",
+      "scores": [
+        {
+          "username": "slamsyk",
+          "userId": "76561198114515066",
+          "score": 612020,
+          "scorePr": "44.17",
+          "WP": 10
+        }
+      ]
+    },
+    {
+      "hash": "54618379F3FDDCF5A8DF2D5FC35581D07466D465",
+      "type": "poodle",
+      "scores": [
+        {
+          "username": "slamsyk",
+          "userId": "76561198114515066",
+          "score": 1284847,
+          "scorePr": "89.34",
+          "WP": 10
+        }
+      ]
+    },
+    {
+      "hash": "6FDA3D6412661EC223AD07F66E38FCBE10B812DE",
+      "type": "funny",
+      "scores": [
+        {
+          "username": "slamsyk",
+          "userId": "76561198114515066",
+          "score": 531287,
+          "scorePr": "21.42",
+          "WP": 10
+        }
+      ]
+    },
+    {
+      "hash": "B63BA22663263E54EF5F15953355515788DF7645",
+      "type": "bonus",
+      "scores": [
+        {
+          "username": "slamsyk",
+          "userId": "76561198114515066",
+          "score": 718271,
+          "scorePr": "97.09",
+          "WP": 10
+        }
+      ]
+    },
+    {
+      "hash": "873503A729DB6DD370BC3E20A384AC00C4047999",
+      "type": "challenge",
+      "scores": [
+        {
+          "username": "Oysths",
+          "userId": "3615798788460911",
+          "score": 801316,
+          "scorePr": "87.09",
+          "WP": 10
+        },
+        {
+          "username": "slamsyk",
+          "userId": "76561198114515066",
+          "score": 194944,
+          "scorePr": "21.19",
+          "WP": 9
+        }
+      ]
+    }
+  ],
+  "top50": [
+    {
+      "hash": "9A1C719FC75F2B96902CA5FDC8CF3021B16229DD",
+      "type": "acc",
+      "scores": [
+        {
+          "username": "Lillie",
+          "userId": "76561198337126899",
+          "score": 854354,
+          "scorePr": "96.92",
+          "WP": 10
+        },
+        {
+          "username": "SteffenT",
+          "userId": "76561198271356591",
+          "score": 847669,
+          "scorePr": "96.16",
+          "WP": 9
+        }
+      ]
+    },
+    {
+      "hash": "AFFADCC1A0A53DD5CD17650E3F83DA015CB602BB",
+      "type": "midspeed",
+      "scores": [
+        {
+          "username": "SteffenT",
+          "userId": "76561198271356591",
+          "score": 861324,
+          "scorePr": "95.72",
+          "WP": 10
+        },
+        {
+          "username": "Lillie",
+          "userId": "76561198337126899",
+          "score": 833954,
+          "scorePr": "92.67",
+          "WP": 9
+        }
+      ]
+    },
+    {
+      "hash": "BDE26148ADB72E2FC4631A8D217B8AA1F9623AE1",
+      "type": "tech",
+      "scores": []
+    },
+    {
+      "hash": "D6A162428900D98BC19634E214F7EB90619434B7",
+      "type": "speed",
+      "scores": [
+        {
+          "username": "SteffenT",
+          "userId": "76561198271356591",
+          "score": 1313840,
+          "scorePr": "94.82",
+          "WP": 10
+        },
+        {
+          "username": "Delibird",
+          "userId": "76561198392074431",
+          "score": 1267481,
+          "scorePr": "91.47",
+          "WP": 9
+        }
+      ]
+    },
+    {
+      "hash": "54618379F3FDDCF5A8DF2D5FC35581D07466D465",
+      "type": "poodle",
+      "scores": [
+        {
+          "username": "Lillie",
+          "userId": "76561198337126899",
+          "score": 1304376,
+          "scorePr": "90.70",
+          "WP": 10
+        }
+      ]
+    },
+    {
+      "hash": "6FDA3D6412661EC223AD07F66E38FCBE10B812DE",
+      "type": "funny",
+      "scores": []
+    },
+    {
+      "hash": "B63BA22663263E54EF5F15953355515788DF7645",
+      "type": "bonus",
+      "scores": [
+        {
+          "username": "Lillie",
+          "userId": "76561198337126899",
+          "score": 703560,
+          "scorePr": "95.10",
+          "WP": 10
+        }
+      ]
+    },
+    {
+      "hash": "873503A729DB6DD370BC3E20A384AC00C4047999",
+      "type": "challenge",
+      "scores": []
+    }
+  ],
+  "top100": [
+    {
+      "hash": "9A1C719FC75F2B96902CA5FDC8CF3021B16229DD",
+      "type": "acc",
+      "scores": [
+        {
+          "username": "Fytti",
+          "userId": "76561198297320107",
+          "score": 855468,
+          "scorePr": "97.05",
+          "WP": 10
+        }
+      ]
+    },
+    {
+      "hash": "AFFADCC1A0A53DD5CD17650E3F83DA015CB602BB",
+      "type": "midspeed",
+      "scores": []
+    },
+    {
+      "hash": "BDE26148ADB72E2FC4631A8D217B8AA1F9623AE1",
+      "type": "tech",
+      "scores": []
+    },
+    {
+      "hash": "D6A162428900D98BC19634E214F7EB90619434B7",
+      "type": "speed",
+      "scores": []
+    },
+    {
+      "hash": "54618379F3FDDCF5A8DF2D5FC35581D07466D465",
+      "type": "poodle",
+      "scores": [
+        {
+          "username": "Fytti",
+          "userId": "76561198297320107",
+          "score": 1353807,
+          "scorePr": "94.14",
+          "WP": 10
+        }
+      ]
+    },
+    {
+      "hash": "6FDA3D6412661EC223AD07F66E38FCBE10B812DE",
+      "type": "funny",
+      "scores": []
+    },
+    {
+      "hash": "B63BA22663263E54EF5F15953355515788DF7645",
+      "type": "bonus",
+      "scores": []
+    },
+    {
+      "hash": "873503A729DB6DD370BC3E20A384AC00C4047999",
+      "type": "challenge",
+      "scores": []
+    }
+  ]
+}
