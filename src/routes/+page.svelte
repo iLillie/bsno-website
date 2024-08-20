@@ -34,16 +34,17 @@
 </script>
 
 
-<div class="container-lite">
+{#if $leaderboardData != null}
+    <div class="container-lite">
         {#each Object.entries($leaderboardData) as [name]}
             <a style="margin: 0.25rem" href={"#" + name}>#{name}</a>
         {/each}
-</div>
+    </div>
+{/if}
 
 <div class="container">
 
     {#if $leaderboardData != null}
-
         {#each Object.entries($leaderboardData) as [name, leaderboard]}
             <div class="leaderboard">
                 <h2 id={name} class="leaderboard-name">{name}</h2>
